@@ -1,10 +1,10 @@
 # Multiplexer-verilog
-# 2:1 Multiplexer - Gate Level Verilog with simulation waveform.
+# 2:1 Multiplexer - behavioral  level description  and Gate Level in  Verilog with testbench and  waveform.
 
 This project implements a 2:1 multiplexer using  behavioral  level description & gate-level approach  in Verilog.  
 It also includes a testbench to verify all input combinations.
 
-## Multiplexer Details
+## Multiplexer Details for Behavioral level description:-
 
 Inputs: 
 a : first input  
