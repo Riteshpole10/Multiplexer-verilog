@@ -34,12 +34,22 @@ Boolean Equation:
 out = (a AND NOT(sel)) OR (b AND sel)
 out = (a · ~sel) + (b · sel) 
 
+--------------------------------------------------------------------------------------
+ Gate-Level approach:-
+
+- Implemented a 2:1 multiplexer using basic logic gates (AND, OR, NOT).
+- Boolean equation: out = (a AND NOT(sel)) OR (b AND sel)
+- Intermediate wires:
+  - nsel = NOT(sel)
+  - a_path = a AND NOT(sel)
+  - b_path = b AND sel
+- Verified using Behavioral Simulation in Vivado.
 
 
 
 Files in this Repository:-
 
-multiplexer.v : Gate-level Verilog code  
+multiplexer.v :  Verilog code  
 multiplexer_tb.v : Testbench for simulation  
-waveform.png : Optional simulation waveform screenshot  
-elaborated_design.png : Optional gate schematic screenshot
+waveform.png :  simulation waveform 
+elaborated_design.png : schematic screenshot
