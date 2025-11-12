@@ -45,6 +45,16 @@ out = (a · ~sel) + (b · sel)
   - b_path = b AND sel
 - Verified using Behavioral Simulation in Vivado.
 
+| sel | a | b | out |
+| --- | - | - | --- |
+| 0   | 0 | 0 | 0   |
+| 0   | 0 | 1 | 0   |
+| 0   | 1 | 0 | 1   |
+| 0   | 1 | 1 | 1   |
+| 1   | 0 | 0 | 0   |
+| 1   | 0 | 1 | 1   |
+| 1   | 1 | 0 | 0   |
+| 1   | 1 | 1 | 1   |
 
 
 Files in this Repository:-
