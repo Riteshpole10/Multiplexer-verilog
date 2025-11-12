@@ -1,5 +1,4 @@
 module multiplexer_tb;
- 
   reg a;
   reg b;
   reg sel;
@@ -35,9 +34,9 @@ module multiplexer_tb;
  $stop;
   end
  
-  //exampleforautomaticcheckingofcombinationallogic
+  
   always @(a or b or sel)begin
-  #50;// shortdelaytoallowouttobeupdatedinthealwaysblockofthe
+  #50;
 
   if (sel == 1) begin
   if(out!==a)begin
